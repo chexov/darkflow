@@ -97,7 +97,7 @@ def shuffle(self):
     data = self.parse()
     size = len(data)
 
-    print('Dataset of {} instance(s)'.format(size))
+    print('Dataset of {} instance(s). batch={}'.format(size, batch))
     if batch > size: self.FLAGS.batch = batch = size
     batch_per_epoch = int(size / batch)
 
