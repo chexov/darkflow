@@ -150,3 +150,4 @@ def model_name(file_path):
         return '-'.join(file_name[:-1])
     if ext == 'weights':
         return file_name
+

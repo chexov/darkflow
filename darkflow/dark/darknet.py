@@ -84,3 +84,4 @@ class Darknet(object):
         
         stop = time.time()
         print('Finished in {}s'.format(stop - start))
+
